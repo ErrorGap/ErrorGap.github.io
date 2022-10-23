@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+
+<html lang = "en">
+    <head> <!--opening tag to hold nonvisible information about our web page, also known as metadata
+        -->
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>TFT Comps, Guides, Tips, and Tricks from a Challenger Player</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+    </head>
+
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">WebSiteName</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Page 1-1</a></li>
+                    <li><a href="#">Page 1-2</a></li>
+                    <li><a href="#">Page 1-3</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+              </ul>
+            </div>
+          </nav>
+
+
+
+
+        
+        <h1>TFT WEBSITE</h1>
+        <p class="text">ITS A FORST. WELCOME TO THE LAND.</p>
+        <p class="text">A welcoming message so all my users know they've found a friend's website.</p>
+        <img id="smiley" alt="Smiley face" src="https://assets.codepen.io/6093409/smiley-face.png">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        
+        <script>
+            // Identifying our image
+            const smiley = document.querySelector("#smiley");
+    
+            // Adding reaction when image is clicked
+            smiley.addEventListener("click", () => {
+               alert(`Smiley says "Welcome!"`);
+            });
+          </script>
+        
+
+    </body>
+</html>
